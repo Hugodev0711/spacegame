@@ -6,7 +6,7 @@ public class Nave extends Asset{
     }
 
     public Tiro atirar (int poder){
-        return new Tiro(getX()), getY(), 10, Direcao.CIMA, poder);
+        return new Tiro(getX(), getY(), 10, Direcao.CIMA, poder);
     }
 
     @Override
